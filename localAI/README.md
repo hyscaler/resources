@@ -26,7 +26,7 @@ To run the LocalAI with Gradio interface, you'll need the following prerequisite
 - **Pip:** The Python package manager for installing Python libraries.
 - **Gradio:** A Python library for creating web-based UIs for interacting with AI models.
 
-## Step-by-Step Guide
+## Step-by-Step Guide for LocalAI
 
 **Step 1: Install Docker**
 
@@ -38,7 +38,7 @@ Docker allows you to run containerized applications, which are necessary to use 
 
 **Step 2: Pull LocalAI Docker Image and Run**
 
-LocalAI provides Docker container images that contain all the necessary dependencies and models. Follow these steps to pull the LocalAI Docker image:
+LocalAI provides Docker container images that contain all the necessary dependencies and models. Follow these steps to pull the LocalAI Docker image with model. also for more information please refer to this localAI official doc https://localai.io/basics/getting_started/#running-models:
 
 1. Open your terminal or command prompt.
 2. Run the following command to pull the LocalAI Docker image and run that:
@@ -75,7 +75,7 @@ Install Gradio using Pip. [Gradio](https://www.gradio.app/) is an open-source li
 pip install gradio
 ```
 
-**Step 5: Initial Code Setup**
+**Step 5: Initial Code Setup for Gradio Interface**
 
 Write the following code in a file named `main.py`. This script sets up a basic Gradio interface to interact with the LocalAI API Endpoint.
 
@@ -128,7 +128,7 @@ python3 main.py
 
 This will provide you with a URL. When you open this URL, it will take you to the Gradio interface where you can input your prompts.
 
-## Conclusion
+## Summery of LocalAI Setup Guide
 In conclusion, LocalAI offers an exciting opportunity to harness the potential of AI with control and privacy. With this open-source alternative to OpenAI, you can perform local inferencing, run AI models, and create powerful applications—all without the need for GPUs.
 
 For a detailed visual walkthrough of the setup process, we invite you to watch our comprehensive video presentation on YouTube: [LocalAI Setup Guide Video](https://www.youtube.com/watch?v=ojpU7W35-Ww). This video provides step-by-step instructions and additional insights to ensure your success with LocalAI.
